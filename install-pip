@@ -17,11 +17,13 @@ if [ -n "$1" ] ; then
 	shift
 fi
 
+
 $PIP install pygobject
 $PIP install pycairo
 $PIP install httplib2
 $PIP install python-dateutil
 $PIP install psutil
+$PIP install cachetools
 $PIP install requests
 
 $PIP install ujson
